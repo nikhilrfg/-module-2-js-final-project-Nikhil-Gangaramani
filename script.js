@@ -59,6 +59,10 @@ function processGuess() {
                 resetGame();
             }
         } else {
+            // increase strikes
+            // add the guess to strikeLetters
+            // invoke drawStrikeLetters
+            // invoke drawGallows
             strikes++;
             strikeLetters[strikes - 1] = guess;
             drawGallows();
